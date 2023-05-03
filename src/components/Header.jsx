@@ -1,6 +1,6 @@
 import React from 'react'
-import { useEffect,useState } from 'react';
-import { useLocation, useNavigate , NavLink as Link} from 'react-router-dom';
+import { useEffect} from 'react';
+import { NavLink as Link} from 'react-router-dom';
 
 
 export default function Header() {
@@ -18,18 +18,9 @@ export default function Header() {
     }
 
   });
-  let loc=useLocation();
-  let navigate=useNavigate();
-  function pathMatch(route) {
-    if (route === loc.pathname) {
-        return true;
-    }
-    else{
-        return false;
-    }
-}
+
   return (
-    <div className='flex justify-between items-center bg-gray-900 h-[4.5rem] sticky'>
+    <div className='flex justify-between items-center bg-gray-900 h-[4.5rem] sticky top-0 z-10'>
       <div className="logo flex">
           <a href="/" className='flex justify-center items-center cursor-pointer font-semibold'><img src="https://www.thesparksfoundationsingapore.org/images/logo_small.png" alt="" className='h-10 mx-4 bg-gradient-to-t from-white to-gray-400 inline' /><p className='text-white'>The Sparks Foundation</p></a>
       </div>

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -17,4 +20,10 @@ body {
   transition: .2s ease-in-out;
   border-bottom: 4px solid rgb(6, 136, 249);
   padding: 1.35rem 0;
+}
+a{
+  text-decoration: none!important;
+}
+ul,p{
+  margin-bottom: 0!important;
 }
