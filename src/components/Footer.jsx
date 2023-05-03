@@ -18,14 +18,28 @@ export default function Footer() {
                 <a href="https://thesparksfoundation.info/" className='border border-gray-300 text-gray-300 p-1 hover:text-white hover:bg-blue-300'><BsGlobeCentralSouthAsia/></a>
             </div>
         </div>
-        <div className="box2 border border-white h-[18rem] w-[18rem]">
-
+        <div className="box2 h-[18rem] w-[18rem]">
+            <h3 className='text-[1.5rem] text-white px-4 py-4 font-semibold'>Join Us!</h3>
+            <a href='https://www.thesparksfoundationsingapore.org/join-us/internship-positions/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-1'>GRIP (Internship)</a>
+            <a href='https://www.thesparksfoundationsingapore.org/join-us/brand-ambassador/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Brand Ambassador</a>
+            <a href='https://www.thesparksfoundationsingapore.org/join-us/expert-mentor/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Expert Mentor</a>
+            <a href='https://www.thesparksfoundationsingapore.org/join-us/events-volunteer/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Events Volunteer</a>
+            <a href='https://www.thesparksfoundationsingapore.org/join-us/management-volunteer/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Management Volunteer</a>
         </div>
-        <div className="box3 border border-white h-[18rem] w-[18rem]">
-
+        <div className="box3 h-[18rem] w-[18rem] px-1">
+        <h3 className='text-[1.5rem] text-white px-4 py-4 font-semibold'>Programs</h3>
+            <a href='https://www.thesparksfoundationsingapore.org/programs/student-scholarship-program/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-1'>Student Scholarship Program</a>
+            <a href='https://www.thesparksfoundationsingapore.org/programs/student-mentorship-program/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Student Mentorship Program</a>
+            <a href='https://www.thesparksfoundationsingapore.org/programs/student-sos-program/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Student SOS Program</a>
+            <a href='https://www.thesparksfoundationsingapore.org/programs/student-externship-program/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Student Externship Program</a>
+            <a href='https://www.thesparksfoundationsingapore.org/programs/corporate-programs/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>Corporate Programs</a>
         </div>
-        <div className="box4 border border-white h-[18rem] w-[18rem]">
-
+        <div className="box4 h-[18rem] w-[18rem]">
+        <h3 className='text-[1.5rem] text-white px-4 py-4 font-semibold'>Websites</h3>
+            <a href='https://thesparksfoundation.info/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-1'>The Sparks Foundation (Global)</a>
+            <a href='thesparksfoundation.in/' className='hover:text-white ease-in-out block text-gray-400 px-4 py-2'>The Sparks Foundation (India)</a>
+        <h3 className='text-[1.5rem] text-white px-4 py-2 font-semibold'>Interships</h3>
+            <a href='https://internshala.com/internships/internship-at-The%20Sparks%20Foundation' className='hover:text-white ease-in-out block text-gray-400 px-4 py-1'>Internships at Intershala</a>
         </div>
     </div>
     <div className="lastfooter w-full bg-black h-[7rem] text-lg text-white flex items-center justify-center">
