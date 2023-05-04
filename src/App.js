@@ -3,12 +3,15 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import PaymentConfirm from "./Pages/PaymentConfirm";
+import { useEffect } from "react";
 
 
 
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <>
     <Router>
@@ -16,7 +19,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
-        <Route path="/pay-confirm" element={<PaymentConfirm />} />
       </Routes>
       <Footer />
     </Router>
