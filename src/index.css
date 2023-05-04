@@ -28,3 +28,40 @@ a{
 ul,p{
   margin-bottom: 0!important;
 }
+
+#menuicon{
+  display: none;
+}
+@media screen and (min-width:801px) {
+    #nav{
+      display: block!important;
+    }
+}
+
+@media screen and (max-width:800px) {
+  #menuicon{
+    display: block;
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: whitesmoke;
+  }
+  #nav{
+    position: fixed;
+    top:4rem ;
+    right:0rem;
+    height: 15rem;
+    background-color:  rgb(17 24 39 / var(--tw-bg-opacity));
+    display: none;
+  }
+  .nav ul{
+    flex-direction: column;
+  }
+  .nav li{
+    margin: auto auto;
+    text-align: center;
+  }
+  .nav a.active{
+    padding: .5rem 0;
+  }
+  
+}
