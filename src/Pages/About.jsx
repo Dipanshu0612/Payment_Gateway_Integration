@@ -1,13 +1,13 @@
 import React from 'react'
-import { useEffect} from 'react';
+import { useEffect } from 'react';
 
 export default function About() {
   useEffect(() => {
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
   useEffect(() => {
     const rzpPaymentForm = document.getElementById("rzp_payment_form3");
-    
+
     if (!rzpPaymentForm.hasChildNodes()) {
 
       const script = document.createElement("script");
@@ -68,7 +68,7 @@ export default function About() {
         </div>
       </div>
       <div className='flex flex-wrap justify-center items-center flex-col space-y-5 my-4'>
-      <form id="rzp_payment_form3"></form>
+        <form id="rzp_payment_form3"></form>
       </div>
     </div>
   )
