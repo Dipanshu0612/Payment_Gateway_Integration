@@ -33,15 +33,15 @@ export default function About() {
         <h3 className='text-3xl text-yellow-500 tracking-wider'>Our Mission Statement</h3>
         <h4 className='text-center'>To inspire students, help them innovate and let them integrate to build the next generation humankind.</h4>
         <div className="missioncont flex flex-wrap justify-around items-center px-[4.5rem] py-3">
-          <div className="insbox1 px-[4rem] py-2">
+          <div className="insbox1 px-[4rem] py-2 sm:px-1 sm:py-1 md:px-1 md:py-1 text-center">
             <h4 className='font-bold'>Inspire</h4>
             <p className='tracking-wider'>To inspire, motivate and encourage students to learn, create and help build a better society.</p>
           </div>
-          <div className="insbox2 px-[4rem] py-2">
+          <div className="insbox2 px-[4rem] py-2 sm:px-1 sm:py-1 md:px-1 md:py-1 text-center">
             <h4 className='font-bold'>Innovate</h4>
             <p className='tracking-wider'>To teach new ways of thinking, to innovate and solve the problems on their own.</p>
           </div>
-          <div className="insbox3 px-[4rem] py-2">
+          <div className="insbox3 px-[4rem] py-2 sm:px-1 sm:py-1 md:px-1 md:py-1 text-center">
             <h4 className='font-bold'>Integrate</h4>
             <p className='tracking-wider'>To let the students integrate, and help each other, learn from each other and do well together.</p>
           </div>
