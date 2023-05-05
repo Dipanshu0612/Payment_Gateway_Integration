@@ -8,7 +8,7 @@ export default function Footer() {
         <>
             <div className='bg-neutral-900 h-[20rem] flex flex-wrap justify-around items-center md:h-[60rem] sm:h-[80rem]'>
                 <div className="box1 h-[18rem] w-[18rem] flex flex-col md:w-full md:justify-center md:items-center sm:w-full sm:justify-center sm:items-center">
-                    <h3 className='text-yellow-500 font-bold text-transform: uppercase text-[1.5rem] px-4 py-2 tracking-wide'>The Sparks Foundation</h3>
+                    <h3 className='text-yellow-500 font-bold text-transform: uppercase text-[1.5rem] px-4 py-2 tracking-wide text-center'>The Sparks Foundation</h3>
                     <p className='px-3 py-3 text-gray-300 text-center'>We connect students of all financial backgrounds with experts. Knowledge sharing enables equal opportunity for all.</p>
                     <div className="social flex flex-wrap font-medium text-[1.7rem] space-x-3 px-3 py-4">
                         <a href="https://www.facebook.com/thesparksfoundation.info" className=' duration-300 border border-gray-300 text-gray-300 p-1 ease-in-out hover:text-white hover:bg-blue-300 hover:ease-in-out'><AiFillFacebook /></a>
